@@ -1,7 +1,7 @@
-class Demo{    // LK
+class Demo{    // LP
 	static public void main(String args[]){
 		int getal = 14;
-		for(int i = 2; i < getal; i += i){
+		for(int i = 2; i < getal; i++){
 			if(i == 6){
 				continue;
 			}
@@ -11,7 +11,7 @@ class Demo{    // LK
 			}
 			System.out.println("einde");
 		}
-		System.println("finally");
+		System.out.println("finally");
 	}
 }
 
