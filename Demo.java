@@ -1,4 +1,4 @@
-class Demo{   //CM
+class Demo{   //OO
 	static public void main(String args[]){
 		checkit().gaan();
 	}
@@ -19,7 +19,7 @@ abstract class Dier{
 }
 
 class Mier extends Dier{
-	void gaan(){
+	void gaan() throws Error{
 		System.out.println("gaan in mier");
 	}
 }
