@@ -1,17 +1,18 @@
-class Demo{   //ZT
+class Demo{   //XW
 	static public void main(String rbc[]){
-		int nummer = 19;
-		zitten(nummer);
+		new Stoel();
+		return;
+	}
 
-	}
-	static void zitten(int abc){
-		char vr = (char)abc;
-		new Stoel().zitten(vr);
-	}
 
 }
 class Stoel{
-	void zitten(char go){
-		System.out.println("zitten in chair");
+	final int hoogte;
+	Stoel(){
+		this.hoogte = 23;
+		System.out.println("c in Stoel");
+	}
+	Stoel deStoel(){
+		return null;
 	}
 }
