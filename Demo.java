@@ -11,7 +11,7 @@ class Demo{   //CM
 
 abstract class Dier{ 
 	void gaan(){
-		System.out.println("gaan in dier");
+		System.out.println("gaan in Dier");
 	}
 	Dier(){
 		System.out.println("I am Dier");	
