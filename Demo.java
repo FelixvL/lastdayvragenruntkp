@@ -1,4 +1,4 @@
-class Demo{   //ET
+class Demo{   //EX
 	static public void main(String args[]){
 		try{
 			checkit().gaan();
@@ -21,7 +21,7 @@ abstract class Dier{
 class Mier extends Dier{
 	void gaan() throws Error{
 		System.out.println("gaan in mier");
-		throw new Error();
+		throw new RuntimeException();
 	}
 }
 
