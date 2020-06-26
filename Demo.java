@@ -1,4 +1,4 @@
-class Demo{    // LS
+class Demo{    // LD
 	static public void main(String args[]){
 		Roos r = new Roos();
 		r.looper(15);
