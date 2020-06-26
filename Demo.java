@@ -1,18 +1,24 @@
-class Demo{   //FM
+class Demo{   //GM
 	static public void main(String args[]){
-
+		new Mier.gaan();
 	}
 
 }
 
 
-class Dier{ // effect
-	final void gaan(){
-
+abstract class Dier{ 
+	void gaan(){
+		System.out.println("gaan in dier");
+	}
+	Dier(){
+		System.out.println("I am Dier");	
 	}
 }
 
 class Mier extends Dier{
+	void gaan(){
+		System.out.println("gaan in mier");
+	}
 }
 
 
