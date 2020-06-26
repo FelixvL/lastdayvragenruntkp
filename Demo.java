@@ -1,8 +1,9 @@
-class Demo{   //AP
+class Demo{   //ZB
 	static public void main(String args[]){
-		boolean a = true;
+		String a = "true";
 		switch(a){
 			default: System.out.println("zonnig");
+			"false": System.out.println("bewolkt");
 		}
 		System.out.println("regenachtig");
 		;;;;;;;;;;;;;;
