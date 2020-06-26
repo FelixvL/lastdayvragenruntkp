@@ -1,18 +1,14 @@
-class Demo{    // LP
+class Demo{    // LG
 	static public void main(String args[]){
-		int getal = 14;
-		for(int i = 2; i < getal; i++){
-			if(i == 6){
-				continue;
-			}
-			System.out.println(i);
-			if(i == 10){
-				break;
-			}
-			System.out.println("einde");
-		}
-		System.out.println("finally");
+		new Roos().looper(15);
 	}
 }
-
-
+class Roos{
+	int diameter = 3;
+	void looper(int diameter){
+		do{
+			System.out.println("go"+diameter);
+			diameter -= this.diameter;
+		}while(diameter > 4);
+	}
+}
