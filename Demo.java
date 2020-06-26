@@ -1,4 +1,4 @@
-class Demo{   //MV
+class Demo{   //LM
 	static public void main(String args[]){
 
 	}
@@ -6,8 +6,8 @@ class Demo{   //MV
 }
 
 
-class Dier{
-	abstract void gaan();
+final class Dier{
+	void gaan();
 }
 
 
