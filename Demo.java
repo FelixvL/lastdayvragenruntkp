@@ -1,4 +1,4 @@
-class Demo{    // LX
+class Demo{    // LF
 	static public void main(String args[]){
 		new Roos().looper();
 	}
@@ -12,7 +12,6 @@ class Roos{
 				throw new RuntimeException();
 			}else{	
 				i++;
-				continue;
 			}
 			System.out.println(getallen[i]);
 		}
