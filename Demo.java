@@ -1,13 +1,13 @@
-class Demo{   //IG
+class Demo{   //SI
 	static public void main(String rbc[]){
-		Server s = new Computer();
+		Computer s = new Computer();
 		System.out.println(s.url);
 	}
 
 
 }
 class Computer{
-	float watt = 220.4;
+	float watt = 220.4f;
 }
 
 class Server extends Computer{
