@@ -1,16 +1,18 @@
-class Demo{   //SK
+class Demo{   //FM
 	static public void main(String args[]){
-		Dier d = new Dier();
-		d = new Dier();
+
 	}
 
 }
 
 
-final class Dier{
-	void gaan(){
+class Dier{ // effect
+	final void gaan(){
 
 	}
+}
+
+class Mier extends Dier{
 }
 
 
