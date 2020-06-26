@@ -1,7 +1,7 @@
-class Demo{   //SI
+class Demo{   //PJ
 	static public void main(String rbc[]){
-		Computer s = new Computer();
-		System.out.println(s.url);
+		Server s = new Server();
+		System.out.println(s.watt);
 	}
 
 
