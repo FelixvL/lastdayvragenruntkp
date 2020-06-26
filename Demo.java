@@ -1,4 +1,4 @@
-class Demo{   //AF
+class Demo{   //AF 
 	static public void main(String rbc[]){
 		for(int i, j = 1; j < new Stoel().plekken.length; ){
 			System.out.println(new Stoel().plekken[j-1]);
