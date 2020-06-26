@@ -1,6 +1,9 @@
-class Demo{   //GM
+class Demo{   //CM
 	static public void main(String args[]){
-		new Mier.gaan();
+		checkit().gaan();
+	}
+	static Dier checkit(){
+		return new Mier();
 	}
 
 }
