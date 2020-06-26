@@ -1,19 +1,18 @@
-class Demo{   //DS
+class Demo{    // LK
 	static public void main(String args[]){
-		new Hup();
+		int getal = 14;
+		for(int i = 2; i < getal; i += i){
+			if(i == 6){
+				continue;
+			}
+			System.out.println(i);
+			if(i == 10){
+				break;
+			}
+			System.out.println("einde");
+		}
+		System.println("finally");
 	}
 }
 
-class Hup{
-	boolean rrr = johan() || frits();
-	boolean johan(){
-		System.out.println("johan");
-		return true;
-	}
-	boolean frits(){
-		System.out.println("frits");
-		return true;
-	}
-
-}
 
