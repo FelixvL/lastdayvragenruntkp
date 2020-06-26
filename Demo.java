@@ -1,20 +1,18 @@
-class Demo{    // LD
+class Demo{    // LH
 	static public void main(String args[]){
-		Roos r = new Roos();
-		r.looper(15);
-		System.out.println(r.diameter);
-
+		new Roos().looper();
 	}
 }
 class Roos{
-	int diameter = 3;
-	void looper(int diameter){
-		do{
-			System.out.println("go"+diameter);
-			diameter -= --this.diameter;
-		}while(geefop());
+		
+	int[] getallen = {12,14,5,23,41};
+	void looper(){
+		for(int i = 0 ; i < getallen.length; i++){
+			if(getallen[i]){
+				throw new RuntimeException();
+			}
+			System.out.println(getallen[i]);
+		}
 	}
-	boolean geefop(){
-		return diameter-- > 0;
-	}
+
 }
