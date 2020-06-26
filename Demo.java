@@ -1,8 +1,7 @@
-class Demo{   //IL
+class Demo{   //CC
 	static public void main(String args[]){
-		Long a = new Integer(6);
-
-		System.out.println("regenachtig");
+		char a = new Character("B");
+		System.out.println("prima");
 
 	}
 }
