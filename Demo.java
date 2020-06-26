@@ -1,24 +1,23 @@
-class Demo{    // TL
+class Demo{    // MU
 	static public void main(String args[]){
-		try{
-			new Roos().looper();
-		}catch(Exception e){
-		}
-		System.out.println("einde");
+		Meer meer = new Meer();
+		Boot boot = new Boot();
+		boot.naam = "Kameleon";
+		System.out.println(">>"+meer.boot.naam);
+
+	}
+	void leegpompen(Meer meertje){
+		meertje = new Meer();
+		meertje.boot = new Boot();
 	}
 }
-class Roos{
-		
-	int[] getallen = {12,14,5,23,41};
-	void looper(){
-		for(int i = 2 ;   ; i++){
-			if(getallen[i] == 14){
-				throw new RuntimeException();
-			}else{	
-				i += getallen[i] % i;
-			}
-			System.out.println(getallen[i]);
-		}
-	}
+class Meer{
+	static Boot boot;
+	int diepte;	
 
+
+}
+
+class Boot{
+	String naam = "Kameleon";
 }
