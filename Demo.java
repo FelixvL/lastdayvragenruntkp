@@ -1,4 +1,4 @@
-class Demo{   //PL
+class Demo{   //PK
 	static public void main(String rbc[]){
 		int nummer = 45;
 		kijken(nummer);
@@ -14,7 +14,7 @@ class Demo{   //PL
 		chair.zitten = 22;
 	}
 }
-public class Stoel{
+class Stoel{
 	int zitten = 11;
 	void zitten(char go){
 		System.out.println("zitten in chair");
