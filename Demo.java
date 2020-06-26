@@ -1,4 +1,4 @@
-class Demo{   //HD
+class Demo{   //HD 
 	static public void main(String rbc[]){
 		// Wat is de jdk? Java Development Kit -> produceren programmeurs
 		// Wat is de jre? Java Runtime Environment -> runnen afspelen iederecomputer  3 billion
