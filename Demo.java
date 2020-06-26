@@ -1,4 +1,4 @@
-class Demo{   //SW
+class Demo{   //FT
 	static public void main(String args[]){
 		new FrameCollision(34);
 	}
@@ -7,6 +7,7 @@ class Demo{   //SW
 
 class FrameCollision extends NetworkCollision{
 	FrameCollision(int a){
+		super(a);
 		System.out.println("dit gaat fout");
 	}
 }
