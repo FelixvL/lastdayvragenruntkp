@@ -1,11 +1,7 @@
-class Demo{   //LI
+class Demo{   //IL
 	static public void main(String args[]){
-		long a = new Integer(6);
-		switch(a){
-			case 6: System.out.println("bewolkt");
-				break;
-			default: System.out.println("zonnig");
-		}
+		Long a = new Integer(6);
+
 		System.out.println("regenachtig");
 
 	}
