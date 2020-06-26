@@ -1,10 +1,19 @@
-class Demo{   //CC
+class Demo{   //DS
 	static public void main(String args[]){
-		char a = new Character("B");
-		System.out.println("prima");
-
+		new Hup();
 	}
 }
 
+class Hup{
+	boolean rrr = johan() || frits();
+	boolean johan(){
+		System.out.println("johan");
+		return true;
+	}
+	boolean frits(){
+		System.out.println("frits");
+		return true;
+	}
 
+}
 
