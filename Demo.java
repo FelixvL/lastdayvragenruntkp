@@ -1,6 +1,6 @@
-class Demo{   //ZP
+class Demo{   //ZT
 	static public void main(String rbc[]){
-		int nummer = 019;
+		int nummer = 19;
 		zitten(nummer);
 
 	}
