@@ -1,6 +1,6 @@
-class Demo{   //DH
+class Demo{   //DB
 	static public void main(String args[]){
-		r35 jojo = new r35();
+		r35 jojo = new r35(54);
 		System.out.println( watnouweer(jojo)  );
 	}
 	static b52 watnouweer(b52 abc){
