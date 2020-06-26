@@ -1,13 +1,12 @@
-class Demo{   //ZB
+class Demo{   //LI
 	static public void main(String args[]){
-		String a = "true";
+		long a = new Integer(6);
 		switch(a){
+			case 6: System.out.println("bewolkt");
+				break;
 			default: System.out.println("zonnig");
-			"false": System.out.println("bewolkt");
 		}
 		System.out.println("regenachtig");
-		;;;;;;;;;;;;;;
-		{}{}{}{}{}
 
 	}
 }
