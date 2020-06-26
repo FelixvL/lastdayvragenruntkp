@@ -1,4 +1,4 @@
-class Demo{    // LT
+class Demo{    // TL
 	static public void main(String args[]){
 		try{
 			new Roos().looper();
