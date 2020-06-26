@@ -1,18 +1,22 @@
-class Demo{   //FT
+class Demo{   //DH
 	static public void main(String args[]){
-		new FrameCollision(34);
+		r35 jojo = new r35();
+		System.out.println( watnouweer(jojo)  );
+	}
+	static b52 watnouweer(b52 abc){
+		return abc;
 	}
 }
 
 
-class FrameCollision extends NetworkCollision{
-	FrameCollision(int a){
+class r35 extends b52{
+	r35(int a){
 		super(a);
 		System.out.println("dit gaat fout");
 	}
 }
-class NetworkCollision{
-	NetworkCollision(int b){
+class b52{
+	b52(int b){
 		System.out.println(b);
 	}
 }
