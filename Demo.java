@@ -1,4 +1,4 @@
-class Demo{    // LG
+class Demo{    // LO
 	static public void main(String args[]){
 		new Roos().looper(15);
 	}
@@ -9,6 +9,9 @@ class Roos{
 		do{
 			System.out.println("go"+diameter);
 			diameter -= this.diameter;
-		}while(diameter > 4);
+		}while(geefop());
+	}
+	boolean geefop(){
+		return diameter-- > 0;
 	}
 }
