@@ -1,14 +1,16 @@
-class Demo{   //HD 
-	static public void main(String rbc[]){
-		// Wat is de jdk? Java Development Kit -> produceren programmeurs
-		// Wat is de jre? Java Runtime Environment -> runnen afspelen iederecomputer  3 billion
-		// JVM Java Virtual Machine
-
-//		Java is hierop trots en zegt, onze taal is platform onafhankelijk
-//		Code once run anywhere
-//		GarbageCollector
+class Demo{   //NC
+	static public void main(String args[]){
+		new NetworkCollision();	
 	}
+}
 
+
+class FrameCollision extends NetworkCollision{
+	FrameCollision(int a){
+		System.out.println("dit gaat fout");
+	}
+}
+class NetworkCollision{
 
 }
 
