@@ -1,4 +1,4 @@
-class Demo{    // LQ
+class Demo{    // LT
 	static public void main(String args[]){
 		try{
 			new Roos().looper();
@@ -11,7 +11,7 @@ class Roos{
 		
 	int[] getallen = {12,14,5,23,41};
 	void looper(){
-		for(int i = 0 ;   ; i++){
+		for(int i = 2 ;   ; i++){
 			if(getallen[i] == 14){
 				throw new RuntimeException();
 			}else{	
