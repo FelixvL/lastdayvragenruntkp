@@ -1,5 +1,5 @@
-class Demo{   //ZA
-	static public void main(String rbc...){
+class Demo{   //OG
+	static public void main(String rbc[]){
 		System.out.println("hoi");
 		new Demo().lopen();
 	}
