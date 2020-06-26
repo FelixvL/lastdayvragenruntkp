@@ -1,8 +1,10 @@
-class Demo{   //RS
-	static public int main(String args[]){
-		System.out.println("hoi"+args.length);
-		return 5;
+class Demo{   //ZA
+	static public void main(String rbc...){
+		System.out.println("hoi");
+		new Demo().lopen();
 	}
-
+	void lopen(){
+		System.out.println("in lopen");
+	}
 
 }
