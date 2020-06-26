@@ -1,6 +1,7 @@
-class Demo{   //OK
+class Demo{   //ER
 	static public void main(String rbc[]){
 		new Stoel(2);
+		new Stoel(1).Stoel();
 	}
 
 
@@ -11,7 +12,7 @@ class Stoel{
 		System.out.println(array[i]);
 		System.out.println("c in Stoel");
 	}
-	Stoel deStoel(){
+	Stoel Stoel(){
 		return new Stoel(1);
 	}
 }
