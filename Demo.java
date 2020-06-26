@@ -1,6 +1,6 @@
-class Demo{   //IO
-	public static void main(String args){
-		System.out.println("hoi");
+class Demo{   //KJ
+	final static public void main(String... args){
+		System.out.println("hoi"+args.length);
 	}
 
 
