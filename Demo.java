@@ -1,4 +1,4 @@
-class Demo{   //XW
+class Demo{   //RZ
 	static public void main(String rbc[]){
 		new Stoel();
 		return;
@@ -7,7 +7,7 @@ class Demo{   //XW
 
 }
 class Stoel{
-	final int hoogte;
+	final static int hoogte;
 	Stoel(){
 		this.hoogte = 23;
 		System.out.println("c in Stoel");
