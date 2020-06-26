@@ -1,23 +1,15 @@
-class Demo{   //AF 
+class Demo{   //IG
 	static public void main(String rbc[]){
-		for(int i, j = 1; j < new Stoel().plekken.length; ){
-			System.out.println(new Stoel().plekken[j-1]);
-			j++;
-		}
-		System.out.println("ik leef nog");
+		Server s = new Computer();
+		System.out.println(s.url);
 	}
 
 
 }
-class Stoel{
-	int[] plekken = {3,7,8};
-	Stoel(int i){
-		System.out.println("c in Stoel");
-	}
-	Stoel(){
+class Computer{
+	float watt = 220.4;
+}
 
-	}
-	Stoel Stoel(){
-		return new Stoel(1);
-	}
+class Server extends Computer{
+	String url = "nos.nl";
 }
